@@ -1,0 +1,33 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yulia-Sm1999/ajs-homeworks-arraybuffer-math.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yulia-Sm1999/ajs-homeworks-arraybuffer-math/issues"
+  },
+  "homepage": "https://github.com/Yulia-Sm1999/ajs-homeworks-arraybuffer-math#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1"
+  }
+}
