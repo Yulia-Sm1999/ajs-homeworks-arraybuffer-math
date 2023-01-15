@@ -8,12 +8,12 @@ test('should show attack = 24', () => {
   expect(result).toBe(24);
 });
 
-test('should get stoned and show attack = 6', () => {
+test('should get stoned and show attack = 0', () => {
   const daemon = new Daemon('Cole');
-  daemon.stoned = 'yes';
+  daemon.stoned = true;
   daemon.attackLevel = 8;
   const result = daemon.attackLevel;
-  expect(result).toBe(6);
+  expect(result).toBe(0);
 });
 
 test('should throw an error because of too short name', () => {
